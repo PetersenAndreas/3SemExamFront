@@ -7,6 +7,7 @@ import { Header } from "./Header";
 import { External } from "./External";
 import { LoginAndOut } from "./LoginAndOut";
 import { Admin } from "./Admin";
+import { Yoga } from "./Yoga";
 
 export default App;
 
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/external">
             <External />
+          </Route>
+          <Route path="/yoga">
+            <Yoga />
           </Route>
           <Route path="/admin-page">
             <Admin />
