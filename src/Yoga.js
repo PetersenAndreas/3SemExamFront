@@ -34,8 +34,7 @@ export function Yoga() {
 
       return (<div>
         <h1>Yoga Details</h1>
-        <br/>
-        <br/>
+        <hr/>
         <table border="1" width="50%">
         <thead>
           <tr>
