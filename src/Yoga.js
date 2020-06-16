@@ -33,8 +33,7 @@ export function Yoga() {
       }
 
       return (<div>
-        <h1>External API</h1>
-        <button onClick={fetchYogaCours}>Press to fetch from API's!</button>
+        <h1>Yoga Details</h1>
         <br/>
         <br/>
         <table border="1" width="50%">
